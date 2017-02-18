@@ -1,0 +1,126 @@
+<!-- employee details-->
+<html>
+
+<head>
+<title>SIS Employee</title>
+</head>
+<a href="hopepage.html">goto HOME</a>
+<form >
+<table border="1" bgcolor="#fca" align="center" width="100%">
+	<caption>Employee Form</caption>
+
+	<tr>
+		<td>name</td>
+		<td><input type="text"  name="userName"></td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td><input type="password" name="userPassword"></td>
+	</tr>
+	
+	<tr>
+		<td>Gender</td>
+		<td>
+		<input type="radio" name="userGender" value="male">M
+		<input type="radio" name="userGender" value="female">F
+		<input type="radio" name="userGender" value="transe">T
+		
+		</td>
+	</tr>
+	
+	<tr>
+		<td>DOB(dd/mm/yyyy)</td>
+		<td>
+		<input type="text" name="dob_DD" maxlength="2" size="5">
+		<input type="text" name="dob_MM"  maxlength="2" size="5">
+		<input type="text" name="dob_YYYY" maxlength="4" size="5">
+		 </td>
+	</tr>
+
+	<tr>
+		<td>mobile</td>
+		<td><input type="text" name="userMobile" maxlength="13">
+		</td>
+	</tr>
+
+	<tr>
+		<td>skills</td>
+		<td>
+		
+		<input type="checkbox"  name="userSkills" value="c">C 
+		<input type="checkbox"  name="userSkills" value="cpp">C++ 
+		<input type="checkbox"  name="userSkills" >DS 
+		<input type="checkbox"  name="userSkills" >J2SE
+		<input type="checkbox"  name="userSkills" >J2EE
+		<input type="checkbox"  name="userSkills" >J2ME
+		<input type="checkbox"  name="userSkills" >Andriod
+		<input type="checkbox"  name="userSkills" >PHP
+		 
+		</td>
+	</tr>
+
+	<tr>
+		<td>Country</td>
+		<td>
+		<select name="userCountryName" >
+		  <option value="-1">SELECT YOUR COUNTRY</option>
+		  <option value="india">INDIA</option>
+		  <option value="pak">PAKISTAN</option>
+		  <option>XXXX</option>
+		  <option>YYY</option>
+		</select>
+		
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Country</td>
+		<td>
+		<select name="abc" multiple="multiple">
+		  <option value="-1">SELECT YOUR things</option>
+		  <option value="india">AA</option>
+		  <option value="pak">BB</option>
+		  <option>XXXX</option>
+		  <option>YYY</option>
+		</select>
+		
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<td>About You</td>
+		<td>
+		 <textarea rows="5" cols="30" name="userAboutText">
+		 </textarea>
+		
+		</td>
+	</tr>
+	<tr>
+		<td>upload</td>
+		<td>
+		<input type="file" name="userDoc">
+		</td>
+	</tr>
+
+	<tr>
+		<td><input type="reset"  value="Clear All"></td>
+		<td>
+		<input type="submit" >
+		<input type="submit" value="post/send">
+		</td>
+	</tr>
+	
+
+</table>
+
+
+</form>
+
+
+
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+length
+
+surenDRA
+
+upper lower
+
+   surendra   
+   
+   trim
+ 
+substring
+
+
+contains 
+     
+indexof
+repalce
+
+
+
+API 
+
+return 
+   paramenter
+   
+   size length totalCarach
+   
+   
+   int m()
+   
+   return String
+         parameter (int, int)
+		 
+   
+

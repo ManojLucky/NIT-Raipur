@@ -1,0 +1,43 @@
+//package sis.com.project1;
+
+import java.util.Random;
+/* 
+auther: surendra kuamr  sao
+Email : sur.nit.mca@gmail.com
+phone 9009442844
+Raipur (C.G)
+*/
+
+class  SIS_Thought3{
+	public static void  main(String args[])throws Exception{
+
+     String [] thoughts={
+	 "thought1",
+	 "thought2",
+	 "thought33",
+	 "thought3",
+	 "thought4",
+	 "thought5",
+	 };
+	 
+	 Random  rand  = new Random();
+/*
+	for(int t=1;t<=thoughts.length;t++){
+	Thread.sleep(1000);
+	//int index = rand.nextInt(10);
+	int index = rand.nextInt(thoughts.length);
+	System.out.println(thoughts[index]);   
+	}
+*/
+
+   for(;true;){
+	Thread.sleep(1000);
+	//int index = rand.nextInt(10);
+	int index = rand.nextInt(thoughts.length);
+	System.out.println(thoughts[index]);   
+	}
+
+
+	}//main
+
+}//class

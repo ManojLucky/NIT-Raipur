@@ -1,0 +1,10 @@
+javap java.lang.System{
+ public static java.io.Console console();
+}
+
+javap  java.io.Console {
+
+ public java.lang.String readLine();
+ public char[] readPassword();
+
+}

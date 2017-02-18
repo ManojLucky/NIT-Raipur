@@ -1,0 +1,49 @@
+COURSE DETAILS: CORE + ADV + PROJECT?? 
+
+START DATE : 16 JAN 4-6:PM
+
+2ND START DATE : 17 JAN 7:30-930:PM
+GROUP: A  
+TIMING:
+MON TUE
+
+WED 
+6PM TO 8PM
+
+THU FRI 
+7:00AM-8:30AM
+
+SAT SUN   
+7:30AM TO 10:00 AM
+
+SNO	NAME
+#1	UTTAM KUMAR
+#2	SURYA PRATAP SINGH
+#3	ANANT DWIVEDI
+#4	SURAJ GUPTA
+#5	SHRAVAN GUPTA
+#6 	MANOJ CHAURASIYA
+#7	SAKET KUMAR
+#8 AMIT SAINI
+#9 	ABNISH  CHACHONDIYA
+#10 VIJAY YADAV
+
+# JAY RAM DHAR DUBEY ??
+---------------------
+day1 16 jan 
+day2 17 jan
+
+computer>>network>>sw/hw/protocal>>internet>>.c .obj .exe .java .class jvm
+security threats about java>>java features >>object/class>>cmd>>batch>>env todo
+
+
+
+
+
+
+
+
+
+
+
+

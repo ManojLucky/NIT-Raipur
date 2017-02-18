@@ -1,0 +1,8 @@
+requirement:print . ten times and
+then print Welcome
+
+
+
+javac -d d:\nit_batch1\3feb\project1\bin D:\nit_batch1\3feb\project1\src\sis\com\project1\SIS_Thought.java
+
+javac -d d:\nit_batch1\3feb\project1\bin D:\nit_batch1\3feb\project1\src\sis\com\project1\*.java

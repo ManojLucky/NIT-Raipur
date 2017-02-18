@@ -1,0 +1,253 @@
+datatype
+interger
+1byte
+2short
+4int
+8long
+
+floating
+4float (.7)
+8double(.15)
+
+char '' 2 byte support UNICODE
+boolean  true flase 
+
+primitive/basic data
+
+how to declare varible??
+
+datatype varName;
+init
+varName=Value;
+
+datatype varName=Value;
+--------------------------
+
+7:26 AM 1/22/2016
+datatype
+++
+>> < <
+javap
+System.out
+System.in
+
+java.util.Scanner
+
+javap java.lagn.System
+System.getenv
+
+7:26 AM 2/22/2016
+
+javap java.util.Scanner 
+java.util.Scanner  input ;
+input = new java.util.Scanner(System.in) ;
+
+.next()
+.nextLine()
+.nextXxx()
+
+
+if(booleaExp){
+}
+
+if(booleaExp){
+}else{
+
+}
+
+
+if(c1){
+	if(c2){
+		if(c3){
+		   
+		}
+	}
+}
+
+
+
+if(c1){
+	if(c2){
+		if(c3){
+		   
+		}else{
+		
+		}//c3 else
+	}else{
+	
+	}//c2 else
+}else{
+
+}//c1 else
+
+ternary operator /condition operator
+exp1?exp2:exp3
+big  =10>5?10:5
+big  =10>5?10:5
+
+	  switch(key){
+		  case const1:
+		  //todo
+		  break;
+		  case const2:
+		   //todo
+		   break;
+		   
+		  default:
+			//todo
+			[break];
+	  
+	  }
+	  
+	  
+	INTI
+
+while(booleanExp){
+//todo
+
+}	
+--------------------8:07 AM 1/24/2016---	
+
+
+for(init; be; counter){
+
+}
+
+do while
+while
+for 
+infinite loop
+for loop as while loop
+nested loop
+unicode
+====================
+
+SURENDRA
+
+how to declare array in java??
+
+datatype  arrayName [];
+datatype  []arrayName;
+
+
+Wrapper class
+
+byte   java.lang.Byte
+short  java.lang.Short
+int    java.lang.Integer
+long   java.lang.Long
+ 
+float   java.lang.Float
+double  java.lang.Double
+
+char  = java.lang.Character
+boolean  = java.lang.Boolean
+
+primitive  =   WrapperClass.parseXxx("value");
+
+public static int parseInt(java.lang.String)
+int num1 =  Integer.parseInt("10");
+
+
+object to primitive
+
+byte byteValue();
+short shortValue();
+int intValue();
+long longValue();
+float floatValue();
+double doubleValue();
+
+
+java.lang.Integer(int);
+java.lang.Integer(java.lang.String)
+
+create object 
+Integer iObj  = new Integer(10)
+Integer iObj  = new Integer("10")
+
+object to primitive
+int num = IObj;//Wrong
+int num = IObj.intValue();//OK
+  
+  
+  AutoBoxing 1.5
+  
+  boxing   primitive to object   new 
+  
+  unboxing objecto primitive    xxxValue
+  
+  
+  requirement: creating calendar
+  
+  
+  //
+  
+  what is PAth??
+  for whom  Path?? OS
+  
+  classpath??
+  for whom ?? javac java javap
+  
+  
+  how to set classpath??
+  set classpath=.;yourclasspath
+  
+  
+  
+  set classpath=.;d:\nit_batch1\30jan;d:\nit_batch2;
+  
+  java Demo 
+  Hello Student Batch1
+  set classpath=.;d:\nit_batch2;d:\nit_batch1\30jan;
+  Hello Student Batch2
+  
+  
+  
+  
+	how to declare package??
+
+package sis.nit.batch2;	
+	  
+
+javac  ClassName.java
+        ClassName.class
+javac -d . ClassName.java
+-d <directory>  Specify where to place generated class files
+
+
+D:\PACKAGEDEMO
++---out
+¦   +---sis
+¦       +---nit
+¦           +---batch1
+¦                   Demo.class
+¦
++---src
+    +---sis
+        +---nit
+            +---batch1
+                    Demo.java
+
+javac -d D:\PACKAGEDEMO\out D:\PACKAGEDEMO\src\sis\nit\batch1\Demo.java 
+
+java Demo  Error
+java sis.nit.batch1.Demo   Error:
+
+set classpath=.;d:\packageDemo\out;
+
+NOTE: jvm complire load package automatic
+
+
+javac -d d:\packageDemo\out d:\packageDemo\src\sis\nit\batch1\Demo.java
+
+javac -d d:\packageDemo\out d:\packageDemo\src\sis\nit\batch2\Demo.java
+
+C:\Users\Surendra>set classpath=.;D:\packageDemo\out;
+
+C:\Users\Surendra>java sis.nit.batch1.Demo
+Hello Student Batch1
+
+C:\Users\Surendra>java sis.nit.batch2.Demo
+Hello Student Batch2
+

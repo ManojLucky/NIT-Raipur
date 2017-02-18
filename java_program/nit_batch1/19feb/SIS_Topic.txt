@@ -1,0 +1,50 @@
+************************************ 
+Auther: surendra kuamr  sao
+S/W Architech & Corporate s/w Trainer
+Email : sur.nit.mca@gmail.com
+phone 9009442844
+Raipur (C.G)
+*************************************
+DATE : Fri 02/19/2016 
+
+
+out ??
+
+out is object inside System class which is 
+
+type of  java.io.PrintStream
+
+javap java.io.PrintStream{
+
+void print(boolean);
+void print(char);
+void print(int);
+void print(long);
+void print(float);
+void print(double);
+void print(char[]);
+void print(java.lang.String);
+void print(java.lang.Object);
+void println();
+void println(boolean);
+void println(char);
+void println(int);
+void println(long);
+void println(float);
+
+
+println();
+println(boolean);
+println(char);
+println(int);
+println(long);
+println(float);
+println(double);
+println(char[]);
+println(java.lang.String);
+println(java.lang.Object);
+
+
+}
+
+

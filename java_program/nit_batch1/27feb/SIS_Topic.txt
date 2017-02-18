@@ -1,0 +1,104 @@
+************************************ 
+SIS: Surendra IT SOlution
+Auther: Surendra Kumar  Sao
+S/W Architech & Corporate s/w Trainer
++25 projects exp. from scratch.
+Java Certified :  SCJP(98%)  & SCWCD(98%)
+MCA from NIT Raipur
+Email : sur.nit.mca@gmail.com
+phone 9009442844
+Raipur (C.G) India
+*************************************
+DATE : Sat 02/27/2016 
+
+
+tree/f d:\nit_batch_AB\27feb
+
+
+	
+tree/f d:\nit_batch_AB\27feb		
+
+D:\NIT_BATCH_AB\27FEB
+¦   SIS_Topic.txt
+¦
++---bin_out_classe
+¦   +---sis
+¦       +---pack1
+¦       ¦       ClassA.class
+¦       ¦       ClassB.class
+¦       ¦       ClassC.class
+¦       ¦
+¦       +---pack2
+¦               ClassE.class
+¦
++---src
+    +---sis
+        +---pack1
+        ¦       ClassA.java
+        ¦       ClassB.java
+        ¦       ClassC.java
+        ¦
+        +---pack2
+                ClassD.java
+                ClassE.java
+
+
+
+javac -d  d:\nit_batch_AB\27feb\bin_out_classe d:\nit_batch_AB\27feb\src\sis\pack1\ClassA.java
+set classpath=.;D:\nit_batch_AB\27feb\bin_out_classe;
+javap sis.pack1.ClassA
+
+
+javac -d bin_out_classe src\sis\pack1\ClassA.java
+javac -d bin_out_classe src\sis\pack1\ClassB.java
+javac -d bin_out_classe src\sis\pack1\ClassC.java
+
+NOTE :
+import sis.pack1.ClassA  inside pack2 ClasseD
+import sis.pack1.ClassA  inside pack2 ClasseE
+
+javac -d bin_out_classe src\sis\pack2\ClassD.java
+javac -d bin_out_classe src\sis\pack2\ClassE.java
+
+
+tree/f 
+
+
+------------------------------------------------------
+
+
+public class  Rect{
+     float h=10;
+     float w=20;
+	  public Rect(){
+	      //super();
+	   System.out.println("Parent object Created");
+	 }
+	 
+	 
+}//class
+
+
+
+public class  Box extends Rect{
+     float l=30;
+	 
+	 
+	 Box(){
+	      //super
+	     System.out.println("Child Created");
+	 }
+	 
+	 public void show(){
+	 System.out.println(h);
+	 System.out.println(w);
+	 System.out.println(l);
+	 
+	 }
+   
+
+
+}//class
+
+==================================================
+

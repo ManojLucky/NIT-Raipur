@@ -1,0 +1,5 @@
+What are COMPUTER?
+COMPUTER are machines that perform tasks or calculations according to a set of instructions, or programs. The first fully electronic COMPUTER, introduced in the 1940s, were huge machines that required teams of people to operate. Compared to those early machines, today's COMPUTER are amazing. Not only are they thousands of times faster, they can fit on your desk, on your lap, or even in your pocket.
+
+COMPUTER work through an interaction of hardware and software. Hardware refers to the parts of a computer that you can see and touch, including the case and everything inside it. The most important piece of hardware is a tiny rectangular chip inside your computer called the central processing unit (CPU), or microprocessor. It's the "brain" of your computer—the part that translates instructions and performs calculations. Hardware items such as your monitor, keyboard, mouse, printer, and other components are often called hardware devices, or devices.
+

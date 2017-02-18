@@ -1,0 +1,115 @@
+how to know os env variable
+set
+
+os  search PATH
+
+how to add your path in path variable for os.
+
+set path=.;yourpath;%path%;
+set path=.;%path%;yourpath;
+
+
+2nd way
+controllpanel>>system>adv
+
+search for system edit
+
+how to declare variable in os
+way1
+set var=value;
+way2
+env variable add new 
+name  v1
+value  value1
+
+echo %v1%
+
+need??
+any notepad editor
+save as .java
+
+compiler & jvm
+
+jdk setup
+
+how to check java install or not
+
+set path jdk bin
+
+set path=.;%path%;C:\Program Files (x86)\Java\jdk1.6.0\bin;
+
+
+java   -version      print product version and exit
+
+javac  compiler
+
+6:58 PM 1/20/2016
+
+step 1 create source file 
+
+
+
+identifier
+
+a-z A-z  
+0-9
+_ $
+
+no space between two words
+no start with digit
+
+variable and method
+
+cameCase
+came_Case
+came$Case
+came9Case
+_came9Case
+$came9Case
+screenSize1
+screenSize2
+
+class & interface ,Enumaration
+
+each words first char will be 
+alwasy Capital
+constant
+MIN_AGE
+
+
+javac FileName.java
+FileName.class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

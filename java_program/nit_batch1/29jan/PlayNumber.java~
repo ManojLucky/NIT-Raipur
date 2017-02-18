@@ -1,0 +1,41 @@
+import java.util.Scanner;
+import java.lang.Integer;
+class  PlayNumber{
+
+ public static void  main(String []args){
+  
+  System.out.println("int MIN_VALUE " + Integer.MIN_VALUE);
+  System.out.println("int MAX_VALUE " + Integer.MAX_VALUE);
+ 
+   System.out.println("float MIN_VALUE " + Float.MIN_VALUE);
+  System.out.println("float MAX_VALUE " + Float.MAX_VALUE);
+ 
+  
+  Scanner keyboard  = new Scanner(System.in);
+  
+  System.out.println("enter Integer number");
+  
+  String strNum  = keyboard.next();
+  
+  int num = java.lang.Integer.parseInt(strNum);
+  String binNumber =Integer.toBinaryString(num);
+  String octNumber =Integer.toOctalString(num);
+  String hexNumber =Integer.toHexString(num);
+   System.out.println("Given Number is " + num);
+   System.out.println("Given Number in Binary " + binNumber);
+   System.out.println("Given Number in Oct " + octNumber);
+   System.out.println("Given Number in Hex " + hexNumber);
+  
+  
+	}//main
+}//class
+
+
+
+
+
+
+
+//studentNames
+
+

@@ -1,0 +1,35 @@
+datatype
+interger
+1byte
+2short
+4int
+8long
+
+floating
+4float (.7)
+8double(.15)
+
+char '' 2 byte support UNICODE
+boolean  true flase 
+
+primitive/basic data
+
+how to declare varible??
+
+datatype varName;
+init
+varName=Value;
+
+datatype varName=Value;
+
+
+
+
+
+
+
+
+
+
+
+

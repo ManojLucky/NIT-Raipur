@@ -1,0 +1,42 @@
+help
+help cmd
+cmd/?
+
+date/?
+help date 
+
+cd 
+.
+..
+cd\
+cd path
+
+d:
+e:
+copy con filename
+yourcontent
+
+ctrl+z
+
+notepad f5 datetime
+
+md 
+rd
+del
+requirement:  
+display 
+hello user
+echo 
+user
+
+env varibale??
+set
+
+%varname%
+
+echo yourmessage%var%
+
+batch 
+
+title valueble file copying...
+7:30 AM 1/20/2016

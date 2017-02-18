@@ -1,0 +1,42 @@
+************************************ 
+SIS: Surendra IT SOlution
+Auther: Surendra Kumar  Sao
+S/W Architech & Corporate s/w Trainer
++25 projects exp. from scratch.
+Java Certified :  SCJP(98%)  & SCWCD(98%)
+MCA from NIT Raipur
+Email : sur.nit.mca@gmail.com
+phone 9009442844
+Raipur (C.G) India
+*************************************
+DATE : Sun 02/28/2016 
+
+
+override??
+same method signature will be  in both class with diff impl.
+
+javap java.lang.Object{
+
+  public java.lang.String toString();
+
+}
+
+  public java.lang.String toString();
+  public final native java.lang.Class getClass();
+  public   int hashCode();
+  public boolean equals(java.lang.Object);
+  protected native java.lang.Object clone()       t
+
+  public final native void notify();
+  public final native void notifyAll();
+  public final native void wait(long)       throws
+  public final void wait(long, int)       throws ja
+  public final void wait()       throws java.lang.I
+  
+  protected void finalize()       throws java.lang.
+
+
+
+
+
+

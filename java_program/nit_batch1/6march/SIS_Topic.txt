@@ -1,0 +1,52 @@
+************************************ 
+SIS: Surendra IT SOlution
+Auther: Surendra Kumar  Sao
+S/W Architech & Corporate s/w Trainer
++25 projects exp. from scratch.
+Java Certified :  SCJP(98%)  & SCWCD(98%)
+MCA from NIT Raipur
+Email : sur.nit.mca@gmail.com
+phone 9009442844
+Raipur (C.G) India
+*************************************
+DATE : Sun 03/06/2016 
+
+interface I1{
+  void m1();
+}
+
+
+interface I2{
+  void m2();
+}
+
+class X {
+   void m3(){
+   
+   }
+
+public abstract   void m4();
+
+}
+
+
+A can implements I1 , I2
+
+class A  implements I1, I2{
+m1(){}
+m2(){}
+}
+
+
+
+an interface can not implements any  interface.
+only class or abstract class  can  implements any interface.
+
+
+an interface can extends more than one interface
+
+I4 extends I1,I2,I3{
+
+}
+
+but 

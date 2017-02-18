@@ -1,0 +1,160 @@
+datatype
+interger
+1byte
+2short
+4int
+8long
+
+floating
+4float (.7)
+8double(.15)
+
+char '' 2 byte support UNICODE
+boolean  true flase 
+
+primitive/basic data
+
+how to declare varible??
+
+datatype varName;
+init
+varName=Value;
+
+datatype varName=Value;
+--------------------------
+
+7:26 AM 1/22/2016
+datatype
+++
+>> < <
+javap
+System.out
+System.in
+
+java.util.Scanner
+
+javap java.lagn.System
+System.getenv
+
+7:26 AM 2/22/2016
+
+javap java.util.Scanner 
+java.util.Scanner  input ;
+input = new java.util.Scanner(System.in) ;
+
+.next()
+.nextLine()
+.nextXxx()
+
+
+if(booleaExp){
+}
+
+if(booleaExp){
+}else{
+
+}
+
+
+if(c1){
+	if(c2){
+		if(c3){
+		   
+		}
+	}
+}
+
+
+
+if(c1){
+	if(c2){
+		if(c3){
+		   
+		}else{
+		
+		}//c3 else
+	}else{
+	
+	}//c2 else
+}else{
+
+}//c1 else
+
+ternary operator /condition operator
+exp1?exp2:exp3
+big  =10>5?10:5
+big  =10>5?10:5
+
+	  switch(key){
+		  case const1:
+		  //todo
+		  break;
+		  case const2:
+		   //todo
+		   break;
+		   
+		  default:
+			//todo
+			[break];
+	  
+	  }
+	  
+	  
+	INTI
+
+while(booleanExp){
+//todo
+
+}	
+--------------------8:07 AM 1/24/2016---	
+
+
+for(init; be; counter){
+
+}
+
+do while
+while
+for 
+infinite loop
+for loop as while loop
+nested loop
+unicode
+====================
+
+SURENDRA
+
+how to declare array in java??
+
+datatype  arrayName [];
+datatype  []arrayName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	  
+	  
+
+
+
+
+
+

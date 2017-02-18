@@ -1,0 +1,40 @@
+/*TIHIS PROGRAM ABOUT DATA TYPE
+AUTHOR=MANOJ CHAURASIYA
+DATE=25 th JAN
+RAIPUR INDIA
+*/
+class MDatatypeDemo
+{
+	public static void main(String arg[])
+	{
+		System.out.println("Some Genral information");
+		System.out.println("---------------------------------------------------------------------");
+	//integeer type declaration
+		byte JanTotal_Days;
+		JanTotal_Days = 31;
+		short JavaGroupA_TotalAge = 800;
+		int NitStudent_TotalAge = 300000;
+		long Populationof_Raipur = 325476981;
+	//Float type Declaration
+		float Tempratureof_Raipur = 18.7F;
+		double TotalIncome_NitRaipur = 1234567890.0987654321;
+	//Character type Declaration
+		char Group_Name = 'A';
+		boolean Isit_AdvanceGroup = true;
+		boolean Istoady_Monday = false;
+		
+	//Printing the value of variable
+		
+		System.out.println("January Total Days=" + JanTotal_Days);
+		System.out.println("Java Group A Total Age=" + JavaGroupA_TotalAge);
+		System.out.println("Nit student total age=" + NitStudent_TotalAge);
+		System.out.println("Total population of raipur=" + Populationof_Raipur);
+		System.out.println("Tempratureof_Raipur=" + Tempratureof_Raipur);
+		System.out.println("TotalIncome of _NitRaipur=" + TotalIncome_NitRaipur);
+		System.out.println("Java Group=" + Group_Name);
+		System.out.println("Is it advance group=" + Isit_AdvanceGroup);
+		System.out.println("Today is monday=" + Istoady_Monday);
+		System.out.println("---------------------------------------------------------------------");
+		
+	} //End of main
+} //end of class

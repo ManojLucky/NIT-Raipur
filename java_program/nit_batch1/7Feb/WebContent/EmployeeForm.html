@@ -1,0 +1,110 @@
+<!-- employee details-->
+<html>
+
+<head>
+<title>SIS Employee</title>
+</head>
+
+<form >
+<table border="1" bgcolor="#fca" align="center" width="100%">
+	<caption>Employee Form</caption>
+
+	<tr>
+		<td>name</td>
+		<td><input type="text"  name="userName"></td>
+	</tr>
+	<tr>
+		<td>password</td>
+		<td><input type="password" name="userPassword"></td>
+	</tr>
+	
+	<tr>
+		<td>Gender</td>
+		<td>
+		<input type="radio" name="userGender">M
+		<input type="radio" name="userGender">F
+		<input type="radio" name="userGender">T
+		
+		</td>
+	</tr>
+	
+	<tr>
+		<td>DOB(dd/mm/yyyy)</td>
+		<td>
+		<input type="text" name="dob_DD" maxlength="2" size="5">
+		<input type="text" name="dob_MM"  maxlength="2" size="5">
+		<input type="text" name="dob_YYYY" maxlength="4" size="5">
+		 </td>
+	</tr>
+
+	<tr>
+		<td>mobile</td>
+		<td><input type="text" name="userMobile" maxlength="13">
+		</td>
+	</tr>
+
+	<tr>
+		<td>skills</td>
+		<td>
+		
+		<input type="checkbox"  name="userSkills" >C 
+		<input type="checkbox"  name="userSkills" >C++ 
+		<input type="checkbox"  name="userSkills" >DS 
+		<input type="checkbox"  name="userSkills" >J2SE
+		<input type="checkbox"  name="userSkills" >J2EE
+		<input type="checkbox"  name="userSkills" >J2ME
+		<input type="checkbox"  name="userSkills" >Andriod
+		<input type="checkbox"  name="userSkills" >PHP
+		 
+		</td>
+	</tr>
+
+	<tr>
+		<td>Country</td>
+		<td>
+		<select name="userCountryName" >
+		  <option>SELECT YOUR COUNTRY</option>
+		  <option>INDIA</option>
+		  <option>PAKISTAN</option>
+		  <option>XXXX</option>
+		  <option>YYY</option>
+		</select>
+		
+		</td>
+	</tr>
+	<tr>
+		<td>About You</td>
+		<td>
+		 <textarea rows="5" cols="30" name="userAboutText">
+		 </textarea>
+		
+		</td>
+	</tr>
+	<tr>
+		<td>upload</td>
+		<td>
+		<input type="file" name="userDoc">
+		</td>
+	</tr>
+
+	<tr>
+		<td><input type="reset"  value="Clear All"></td>
+		<td>
+		<input type="submit" >
+		<input type="submit" value="post/send">
+		</td>
+	</tr>
+	
+
+</table>
+
+
+</form>
+
+
+
+
+<body>
+</body>
+
+</html>
